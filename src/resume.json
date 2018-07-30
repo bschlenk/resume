@@ -1,0 +1,120 @@
+{
+  "basics": {
+    "name": "Brian R. Schlenker",
+    "label": "Software Developer",
+    "email": "bschlenk@umich.edu",
+    "phone": "(248) 925-6808",
+    "website": "github.com/bschlenk"
+  },
+  "work": [
+    {
+      "company": "Amazon.com",
+      "position": "Software Development Engineer",
+      "startDate": "2014-07-03",
+      "endDate": null,
+      "summary": "",
+      "highlights": [
+        "Develop highly scalable system for publishing ads to Facebook and Twitter",
+        "Develop system for sending daily reports on deal of the day campaign statuses",
+        "Review team’s code to reduce bugs and errors",
+        "Become experienced with Amazon Web Services",
+        "Experience in a scrum environment (sprints, stories, planning points, etc.)"
+      ]
+    },
+    {
+      "company": "Lakeside Software",
+      "position": "Software Development Engineer",
+      "startDate": "2013-05-01",
+      "endDate": "2014-07-01",
+      "summary": "",
+      "highlights": [
+        "Ported Windows C++ code to Linux using STL and Boost libraries",
+        "Added new functionality to Linux based collection agent",
+        "Ported existing codebase to Android using JNI bridge",
+        "Developed Chrome/Firefox plugin to track browsing history"
+      ]
+    },
+    {
+      "company": "University of Michigan",
+      "position": "Lab TA for EECS 270 (Microprocessors)",
+      "startDate": "2013-01-01",
+      "endDate": "2013-05-01",
+      "summary": "",
+      "highlights": [
+        "Prepared short lectures for students to clarify topics covered in class",
+        "Helped students better understand Verilog code and best practices",
+        "Graded homework and checked in-lab demos on DE2 Boards",
+        "Hosted open lab hours for students to receive help on their projects"
+      ]
+    },
+    {
+      "company": "Synergy Broadbnad",
+      "position": "Network Technician Intern",
+      "startDate": "2012-04-01",
+      "endDate": "2012-08-01",
+      "summary": "",
+      "highlights": [
+        "Set up DNS records, configured web hosting on IIS server, set up email accounts",
+        "Ran data and voice cables through walls and terminated ends to provide internet access to employees",
+        "Wrote Python scripts to automate repetitive tasks",
+        "Set up and tested new VoIP platform on a local server"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Michigan",
+      "area": "Software Development",
+      "studyType": "Bachelor",
+      "startDate": "2009-09-01",
+      "endDate": "2013-05-01",
+      "gpa": "3.5",
+      "courses": [
+        "Computer Architecture",
+        "Computer Organization",
+        "Web Databases",
+        "Advanced Object-Oriented Programming",
+        "Data Structures",
+        "Operating Systems",
+        "Computer Networking",
+        "Logic Design",
+        "Design of Microprocessor Systems",
+        "Intro to Computer Security",
+        "Signals and Systems",
+        "Electronic Circuits"
+      ],
+      "projects": [
+        {
+          "description": "Two-way superscalar out-of-order processor design in Verilog",
+          "class": "EECS 470"
+        },
+        {
+          "description": "Holonomic radio controlled robot with control coded in Verilog and C",
+          "class": "EECS 373"
+        },
+        {
+          "description": "Photo Album Website written in PHP, HTML, JavaScript, and Python",
+          "class": "EECS 485"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    "Java",
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "HTML5/CSS",
+    "SQL",
+    "Git",
+    "C++",
+    "Inkscape"
+  ],
+  "interests": [
+    "Running",
+    "Biking",
+    "UI Design"
+  ]
+}
