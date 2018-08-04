@@ -10,11 +10,14 @@
     {
       "company": "Amazon.com",
       "position": "Software Development Engineer",
+      "location": "Seattle, WA",
       "startDate": "2014-07-03",
       "endDate": null,
       "summary": "",
       "highlights": [
-        "Develop highly scalable system for publishing ads to Facebook and Twitter",
+        "Mentor interns and raise the bar for future new hires",
+        "Build user interfaces in React for managing ad campaigns and creative resources",
+        "Develop highly scalable system for publishing ads to various social networks",
         "Develop system for sending daily reports on deal of the day campaign statuses",
         "Review team’s code to reduce bugs and errors",
         "Become experienced with Amazon Web Services",
@@ -24,6 +27,7 @@
     {
       "company": "Lakeside Software",
       "position": "Software Development Engineer",
+      "location": "Bloomfield Hills, MI",
       "startDate": "2013-05-01",
       "endDate": "2014-07-01",
       "summary": "",
@@ -37,6 +41,7 @@
     {
       "company": "University of Michigan",
       "position": "Lab TA for EECS 270 (Microprocessors)",
+      "location": "Ann Arbor, MI",
       "startDate": "2013-01-01",
       "endDate": "2013-05-01",
       "summary": "",
@@ -48,8 +53,9 @@
       ]
     },
     {
-      "company": "Synergy Broadbnad",
+      "company": "Synergy Broadband",
       "position": "Network Technician Intern",
+      "location": "Ann Arbor, MI",
       "startDate": "2012-04-01",
       "endDate": "2012-08-01",
       "summary": "",
@@ -64,7 +70,8 @@
   "education": [
     {
       "institution": "University of Michigan",
-      "area": "Software Development",
+      "location": "Ann Arbor, MI",
+      "area": "Computer Science, Engineering",
       "studyType": "Bachelor",
       "startDate": "2009-09-01",
       "endDate": "2013-05-01",
@@ -96,6 +103,22 @@
           "description": "Photo Album Website written in PHP, HTML, JavaScript, and Python",
           "class": "EECS 485"
         }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Trips",
+      "websites": [
+        "trips.bschlenk.com",
+        "github.com/bschlenk/trips-client",
+        "github.com/bschlenk/trips-server"
+      ],
+      "highlights": [
+        "Compare price of various rideshare apps",
+        "Automatically determine user's starting location",
+        "Deeplink into apps with prefilled start and end locations",
+        "Fully automated deployments with TravisCI to S3 and Heroku"
       ]
     }
   ],
