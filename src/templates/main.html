@@ -1,0 +1,93 @@
+<header>
+  <h1>{{ basics.name }}</h1>
+  <div class="content-list">
+    <span>{{ basics.phone }}</span>
+    <span>{{ basics.email }}</span>
+    <span>{{ basics.website }}</span>
+  </div>
+</header>
+
+<section>
+  <h2>Education</h2>
+  {% for edu in education %}
+  <div class="details-header">
+    <span class="details-header-title">
+      {{ edu.institution }}, {{ edu.location }}
+    </span>
+    <span class="details-header-date">
+      {{ edu.startDate | date("MMM YYYY") }} – {{ edu.endDate | date("MMM YYYY") }}
+    </span>
+  </div>
+  <div>{{ edu.studyType }} of {{ edu.area }} • GPA: {{ edu.gpa }} / 4.0</div>
+  <u>Relevant Projects</u>
+  <ul>
+    {% for project in edu.projects %}
+    <li>{{ project.description }} ({{ project.class }})</li>
+    {% endfor %}
+  </ul>
+  <u>Relevant Coursework</u>
+  <div class="content-list">
+    {% for course in edu.courses %}
+    <span>{{ course }}</span>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</section>
+
+<section>
+    <h2>Experience</h2>
+
+    {% for job in work %}
+    <div class="details-header">
+        <span class="details-header-title">
+            {{ job.position }}
+        </span>
+        <span class="details-header-date">
+          {{ job.startDate | date("MMM YYYY") }}
+          -
+          {% if job.endDate %}
+          {{ job.endDate | date("MMM YYYY") }}
+          {% else %}
+          Present
+          {% endif %}
+        </span>
+    </div>
+    <i>{{ job.company }}, {{ job.location }}</i>
+    <ul>
+      {% for highlight in job.highlights %}
+      <li>{{ highlight }}</li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+</section>
+
+<section>
+  <h2>Projects</h2>
+
+  {% for project in projects %}
+  <div class="details-header">
+    <span class="details-header-title">
+      {{ project.name }}
+    </span>
+  </div>
+  <div class="content-list">
+    {% for website in project.websites %}
+    <span><i>{{ website }}</i></span>
+    {% endfor %}
+  </div>
+  <ul>
+    {% for highlight in project.highlights %}
+    <li>{{ highlight }}</li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <div class="content-list">
+      {% for skill in skills %}
+      <span>{{ skill }}</span>
+      {% endfor %}
+    </div>
+</section>

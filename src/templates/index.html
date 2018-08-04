@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ basics.name }}</title>
+        <style>
+            {% for style in theme.styles %}
+            {{ includeFile(style) | safe }}
+            {% endfor %}
+        </style>
+    </head>
+    <body>
+        {% include "main.html" %}
+    </body>
+</html>
