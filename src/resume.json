@@ -8,20 +8,33 @@
   },
   "work": [
     {
-      "company": "Amazon.com",
+      "company": "Amazon",
       "position": "Software Development Engineer",
-      "location": "Seattle, WA",
-      "startDate": "2014-07-03",
+      "location": "Detroit, MI",
+      "startDate": "2018-10-29",
       "endDate": null,
       "summary": "",
       "highlights": [
-        "Mentor interns and raise the bar for future new hires",
-        "Build user interfaces in React for managing ad campaigns and creative resources",
-        "Develop highly scalable system for publishing ads to various social networks",
-        "Develop system for sending daily reports on deal of the day campaign statuses",
-        "Review team’s code to reduce bugs and errors",
-        "Become experienced with Amazon Web Services",
-        "Experience in a scrum environment (sprints, stories, planning points, etc.)"
+        "Build and maintain a library of web components using lit-element",
+        "Build and maintain a suite of Node libraries for frontend websites",
+        "Consolidate 40+ npm packages into monorepo to reduce build time & increase productivity",
+        "Simplify publishing static websites for 100+ other teams",
+        "Consult with other teams on app performance, bundle size, & build tools",
+        "Add feature to Seller Central proxy allowing pages to reduce latency by 200+ ms"
+      ]
+    },
+    {
+      "company": "Amazon",
+      "position": "Software Development Engineer",
+      "location": "Seattle, WA",
+      "startDate": "2014-07-03",
+      "endDate": "2018-10-12",
+      "summary": "",
+      "highlights": [
+        "Mentored interns, holding weekly one-on-ones and reviewing code",
+        "Built web apps in React for managing ad campaigns and creative resources",
+        "Developed highly scalable system for publishing ads to various social networks",
+        "Utilized AWS, including DynamoDB, S3, SQS, Kinesis, CloudFront, and SWF"
       ]
     },
     {
@@ -106,22 +119,6 @@
       ]
     }
   ],
-  "projects": [
-    {
-      "name": "Trips",
-      "websites": [
-        "trips.bschlenk.com",
-        "github.com/bschlenk/trips-client",
-        "github.com/bschlenk/trips-server"
-      ],
-      "highlights": [
-        "Compare price of various rideshare apps",
-        "Automatically determine user's starting location",
-        "Deeplink into apps with prefilled start and end locations",
-        "Fully automated deployments with TravisCI to S3 and Heroku"
-      ]
-    }
-  ],
   "skills": [
     "Java",
     "Python",
@@ -129,11 +126,11 @@
     "TypeScript",
     "React",
     "Node.js",
-    "HTML5/CSS",
+    "HTML/CSS",
     "SQL",
     "Git",
     "C++",
-    "Inkscape"
+    "Webpack"
   ],
   "interests": [
     "Running",
