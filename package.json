@@ -9,7 +9,7 @@
     "build": "node src/index.js"
   },
   "dependencies": {
-    "html-pdf": "^2.2.0",
+    "html-pdf": "^3.0.1",
     "nunjucks": "^3.2.3",
     "nunjucks-date-filter": "^0.1.1"
   }
