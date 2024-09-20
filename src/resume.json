@@ -8,11 +8,24 @@
   },
   "work": [
     {
+      "company": "Figma",
+      "position": "Software Developer",
+      "location": "Clawson, MI (Remote)",
+      "startDate": "2021-07-19",
+      "endDate": null,
+      "summary": "",
+      "highlights": [
+        "Team lead for Autolayout v4 and v5 (absolute positioning, min/max, wrapping)",
+        "Helped build ⌘F (Canvas search) specializing in visual sorting and navigation",
+        "React based design system, building components from scratch to be highly reusable and accessible"
+      ]
+    },
+    {
       "company": "Amazon",
       "position": "Software Development Engineer",
       "location": "Detroit, MI",
       "startDate": "2018-10-29",
-      "endDate": null,
+      "endDate": "2021-07-01",
       "summary": "",
       "highlights": [
         "Build and maintain a library of web components using lit-element",
@@ -64,20 +77,6 @@
         "Graded homework and checked in-lab demos on DE2 Boards",
         "Hosted open lab hours for students to receive help on their projects"
       ]
-    },
-    {
-      "company": "Synergy Broadband",
-      "position": "Network Technician Intern",
-      "location": "Ann Arbor, MI",
-      "startDate": "2012-04-01",
-      "endDate": "2012-08-01",
-      "summary": "",
-      "highlights": [
-        "Set up DNS records, configured web hosting on IIS server, set up email accounts",
-        "Ran data and voice cables through walls and terminated ends to provide internet access to employees",
-        "Wrote Python scripts to automate repetitive tasks",
-        "Set up and tested new VoIP platform on a local server"
-      ]
     }
   ],
   "education": [
@@ -122,7 +121,6 @@
   "skills": [
     "Java",
     "Python",
-    "JavaScript",
     "TypeScript",
     "React",
     "Node.js",
