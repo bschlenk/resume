@@ -1,6 +1,7 @@
 {
   "name": "resume",
   "version": "1.0.0",
+  "type": "module",
   "description": "Resume builder",
   "repository": "https://github.com/bschlenk/resume",
   "author": "Brian Schlenker <bschlenk@umich.edu>",
@@ -9,7 +10,6 @@
     "build": "node src/index.js"
   },
   "dependencies": {
-    "html-pdf": "^2.2.0",
     "nunjucks": "^3.2.3",
     "nunjucks-date-filter": "^0.1.1"
   }
