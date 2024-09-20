@@ -16,8 +16,9 @@
       "summary": "",
       "highlights": [
         "Team lead for Autolayout v4 and v5 (absolute positioning, min/max, wrapping)",
-        "Helped build ⌘F (Canvas search) specializing in visual sorting and navigation",
-        "React based design system, building components from scratch to be highly reusable and accessible"
+        "⌘F (Canvas search) specializing in visual sorting and result navigation",
+        "React based design system, building highly reusable and accessible components from scratch",
+        "Automated icon importing directly from Figma design file"
       ]
     },
     {
